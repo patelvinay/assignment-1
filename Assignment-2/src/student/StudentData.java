@@ -1,5 +1,10 @@
 package student;
 
+/**
+ * @author vinaypatel 
+ * 
+ * class StudentData
+ */
 class StudentData {
 	private int stuID;
 	private String stuName;
