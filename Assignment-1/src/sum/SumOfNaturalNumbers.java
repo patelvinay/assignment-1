@@ -6,7 +6,9 @@ package sum;
 import java.util.Scanner;
 
 /**
- * @author vinaypatel class SumOfNaturalNumbers
+ * @author vinaypatel 
+ * 
+ * class SumOfNaturalNumbers
  */
 public class SumOfNaturalNumbers {
 
@@ -50,13 +52,17 @@ public class SumOfNaturalNumbers {
 					System.out.println("Zero is not a Natural Number" + "\n" + "Enter a Natural Number: ");
 					n = sc.nextInt();
 					System.out.println("Sum of " + n + " Natural Numbers is: " + naturalNumberSum(n));
-				} else {
+				} 
+				else {
 					// else result
 					System.out.println("Sum of " + n + " Natural Numbers is: " + naturalNumberSum(n) + "\n");
 				}
+				
 				System.out.println("To sum again press 'y' or 'n' to exit."); // ask to sum again
 				a = sc.next().charAt(0);
-			} while (a == 'y');
+			
+			}
+			while (a == 'y');
 
 			System.out.println("Thank You for using my program");// end of program
 
